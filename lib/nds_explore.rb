@@ -9,7 +9,5 @@ end
 
 def print_first_directors_movie_titles
 
-  dir
+  directors_database[0][movies][0][title]
 end
-
-pp directors_database
