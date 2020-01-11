@@ -10,9 +10,10 @@ end
 def print_first_directors_movie_titles
 
   movie_index = 1
+  output = ""
 
   while movie_index < directors_database[0][:movies].length do
-    puts directors_database[0][:movies][movie_index][:title]
+    output += "#{directors_database[0][:movies][movie_index][:title]}\n"
     movie_index += 1
   end
   
