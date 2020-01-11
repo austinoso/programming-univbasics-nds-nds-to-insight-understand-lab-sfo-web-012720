@@ -11,3 +11,4 @@ def print_first_directors_movie_titles
 
   directors_database[0][movies][0][title]
 end
+directors_database[0][movies][0][title]
