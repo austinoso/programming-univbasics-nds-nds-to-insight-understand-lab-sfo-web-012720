@@ -12,4 +12,4 @@ def print_first_directors_movie_titles
   dir
 end
 
-pp nds
+pp directors_database
